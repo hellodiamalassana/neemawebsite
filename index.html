@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/src/assets/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>K'ETA</title>
+
+    <style type="text/css">
+      .loader-wrappermobile {
+        display: none;
+      }
+
+      .loader-wrapper {
+        padding-top: 10%;
+        padding-bottom: 10%;
+        margin-left: 30%;
+        width: 50%;
+        height: 50%;
+      }
+
+      @media (max-width: 810px) {
+        .loader-wrapper {
+          display: none;
+        }
+
+        .loader-wrappermobile {
+          display: block;
+          padding-top: 5%;
+          padding-bottom: 5%;
+          width: 2%;
+        }
+      }
+    </style>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-6RP8QQYVPZ"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-6RP8QQYVPZ");
+    </script>
+
+ 
+
+  </head>
+
+  <body>
+    <div id="root">
+      <div class="loader-wrapper">
+        <img src="./src/assets/lo.png" alt="" />
+      </div>
+
+      <div class="loader-wrappermobile">
+        <img src="./src/assets/lo.png" />
+      </div>
+    </div>
+    <script type="module" src="/src/main.tsx"></script>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+  </body>
+</html>
