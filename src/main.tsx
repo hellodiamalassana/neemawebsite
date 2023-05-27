@@ -18,7 +18,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 ReactDOM.render(
   <React.StrictMode>
-    <div className='bg-white font-averta h-full container   overflow-x-hidden px-5  '>
+    <div className='bg-[#292B00]  font-averta h-full container   overflow-x-hidden px-5  '>
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<App />} />

@@ -20,7 +20,7 @@ const Navbar = () => {
         <a className="font-bold text-2xl " href="/">
           <div className="font-bold text-2xl">
             <img src={LogoIcon}
-              className="w-[174px] h-[65px]"
+              className="w-[114px] h-[35px]"
             />
           </div>
         </a>
@@ -33,6 +33,7 @@ const Navbar = () => {
           src={MenuIcon}
         />
       </div>
+       {/*
       <div
         className={`${!isActive ? "hidden" : null
           } w-full md:flex md:items-center md:w-auto`}
@@ -64,6 +65,8 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
+  */}
+
     </div>
 
   );

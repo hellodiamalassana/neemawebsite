@@ -21,19 +21,18 @@ const Landing = () => {
         <div
           data-aos="fade-up"
           data-aos-duration="500"
-          className="text-[#a52a2a] text-[35px]"
+          className="text-[#ffffff] text-[35px]"
         >
-          Construisons ensemble les meilleures expériences digitales
+          Rejoignez la révolution de l'irrigation intelligente
         </div>
         <div
           data-aos="fade-up"
           data-aos-duration="1000"
           className="py-10 w-full lg:w-3/5"
         >
-          <p className="text-sx text-[15px] font-thin text-[black] ">
-            Pour tous vos projets stratégiques, d’ordre technique ou relevant des
-            compétences , nous mettons en œuvre une solution à forte
-            valeur ajoutée technologique et méthodologique.
+          <p className="text-sx text-[15px] font-thin text-[#ffffff] ">
+          Contactez-nous dès aujourd'hui pour découvrir comment Neema 
+          peut transformer votre expérience agricole.
           </p>
         </div>
         <div data-aos="fade-down" data-aos-duration="1500">
@@ -43,13 +42,10 @@ const Landing = () => {
 
         </div>
       </div>
-      <div className="absolute -bottom-28 z-10 -left-20">
-        <img src={Dots} />
-      </div>
     </div>
 
     <div className="col-span-7 relative pt-10">
-      <div className="h-40 w-40 rounded-full bg-[black] absolute -left-20 z-10"></div>
+    
       <div
         data-aos="fade-left"
         data-aos-duration="1000"
@@ -63,7 +59,6 @@ const Landing = () => {
           className="rounded-tr-2xl"
         />
       </div>
-      <div className="h-40 w-40 bg-[black] rounded-br-[100px] absolute right-20 -bottom-24 z-10"></div>
     </div>
   </div>
 

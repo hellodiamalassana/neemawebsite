@@ -14,8 +14,9 @@ module.exports = {
         averta: "Averta",
       },
       colors: {
-        primary: "#2639ED",
+        primary: "#292B00",
         grey: "#757575",
+
   
       },
       boxShadow: {
