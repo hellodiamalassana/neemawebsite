@@ -35,12 +35,13 @@ const Landing = () => {
           peut transformer votre expérience agricole.
           </p>
         </div>
+        {/*
         <div data-aos="fade-down" data-aos-duration="1500">
           <Link to="/Offre">
             <BaseButton>Nos Offres</BaseButton>
           </Link>
 
-        </div>
+        </div> */}
       </div>
     </div>
 
